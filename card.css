@@ -1,0 +1,119 @@
+@page {
+    /* dimensions for the whole page */
+    size: A4;
+    
+    margin: 0;
+}
+
+ #map {
+        height: 100%;
+        width: 100%;
+       }
+
+html {
+    /* off-white, so body edge is visible in browser */
+  font-family: "Amatic SC", sans-serif;
+}
+
+body {
+    margin: 0px;
+    
+
+}
+
+/* fill half the height with each face */
+.face {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    float: right;
+   /* border-radius: 5px;  5px rounded corners */
+}
+
+/* the back face */
+.face-back {
+    
+  /*border: 1px solid #eee;*/
+}
+
+/* the front face */
+.face-front {
+    background: #fff;
+}
+
+/* an image that fills the whole of the front face */
+.face-front img {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.boxcards {
+  /* A4 dimensions */
+  width: 210mm;
+  height: 300mm;
+  padding: 5mm;
+}
+
+.containerinfo {
+  border: 1px solid #fff;
+  background: #ffcc33ff;
+  width: 100%;
+  height: 100%;
+}
+
+.containerborder {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.boxlogoandemotion {
+ margin: 3mm;
+}
+
+.emotion.sqre {
+    float: right;
+}
+
+.logo img {
+  height: 15mm;
+}
+.emotion img {
+  height: 10mm;
+}
+
+.sqre {
+  
+display: inline-block;
+
+  
+}
+
+.emotionname {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+}
+
+.boxtextdata {
+  margin: 3mm;
+  font-size: 18px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.boxmap {
+  margin: 3mm;
+  height: 27mm;
+  background-color: white;
+}
